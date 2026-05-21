@@ -3,7 +3,7 @@
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║        ✦  S Y N T A X I A  ✦  L ' Î L E   P Y T H O N  ✦    ║
+║        ✦  C O D E X I A  ✦  L ' Î L E   P Y T H O N  ✦    ║
 ║                                                              ║
 ║         « Où chaque ligne de code est un sort lancé »        ║
 ║                                                              ║
@@ -31,96 +31,96 @@ Tu es un **Codex Apprenti**. Ton destin : traverser les îles, affronter les dé
 
 ---
 
-## 🗺️ La Carte du Monde
+## <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/1f5fa.svg" width="22" height="22" align="center" /> La Carte du Monde
 
 ```
-          🌊 ～～～～～～～～～～～～～～～～～～～～ 🌊
+          ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
          
-    🏝️ ÎLE I          🏝️ ÎLE II         🏝️ ÎLE III
+    [/\] ÎLE I          [/\] ÎLE II         [/\] ÎLE III
    L'Archipel des    Le Marais des      La Tour des
      Variables        Structures          Fonctions
-   [ ✅ Validée ]    [ 🔒 Verrouillée ] [ 🔒 Verrouillée ]
+   [ * Validée ]    [ # Verrouillée ] [ # Verrouillée ]
 
-          🌊 ～～～～～～～～～～～～～～～～～～～～ 🌊
+          ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 
-                         🏔️ ÎLE FINALE
+                         [^^] ÎLE FINALE
                       Le Sommet du Codex
-                    [ 🔒 Légendaire · Boss ]
+                    [ # Légendaire · Boss ]
 
-          🌊 ～～～～～～～～～～～～～～～～～～～～ 🌊
+          ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 ```
 
 ---
 
-## ⚔️ Mécanique de Jeu
+## <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/2694.svg" width="22" height="22" align="center" /> Mécanique de Jeu
 
 Chaque île contient des **Topics**. Chaque Topic contient **5 Étapes** :
 
 ```
-📦 TOPIC
-│
-├── Étape 1 ── QCM Facile        →  +10 XP
-├── Étape 2 ── QCM Moyen         →  +20 XP
-├── Étape 3 ── QCM Difficile     →  +30 XP
-├── Étape 4 ── Exercice de Code  →  +50 XP
-└── Étape 5 ── Défi Chronométré  →  +100 XP  ⏱️
-                    ↓
-         ✅ Topic Validé → XP + 🃏 Carte Aléatoire
+[+] TOPIC
+|
+|-- Etape 1 -- QCM Facile        -->  +10 XP
+|-- Etape 2 -- QCM Moyen         -->  +20 XP
+|-- Etape 3 -- QCM Difficile     -->  +30 XP
+|-- Etape 4 -- Exercice de Code  -->  +50 XP
+'-- Etape 5 -- Defi Chronometré  -->  +100 XP  [T]
+                    |
+         [V] Topic Valide --> XP + [Card] Carte Aleatoire
 ```
 
-### 🃏 Cartes de Pouvoir
+### <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/1f0cf.svg" width="20" height="20" align="center" /> Cartes de Pouvoir
 
 À chaque topic validé, une carte magique est forgée pour toi. Il en existe **4 raretés** :
 
-| Rareté | Couleur | Effet |
-|---|---|---|
-| ⚪ Commune | Gris argent | Bonus XP mineur |
-| 🔵 Rare | Bleu saphir | Relance 1 défi raté |
-| 🟣 Épique | Violet mystique | Révèle un concept caché |
-| 🟡 Légendaire | Or ancien | Déverrouille un bonus d'île |
+| Rareté | Symbole | Couleur | Effet |
+|---|---|---|---|
+| Commune | `( o )` | Gris argent | Bonus XP mineur |
+| Rare | `( * )` | Bleu saphir | Relance 1 défi raté |
+| Épique | `( # )` | Violet mystique | Révèle un concept caché |
+| Légendaire | `( ✦ )` | Or ancien | Déverrouille un bonus d'île |
 
-### 🧿 Power-ups en Combat
+### <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/26a1.svg" width="20" height="20" align="center" /> Power-ups en Combat
 
-| Symbole | Nom | Effet |
+| Glyphe | Nom | Effet |
 |---|---|---|
-| 💡 | Hint | Indice sur la question en cours |
-| 📖 | Réexplication | Réexplique le concept depuis le début |
-| ⏪ | Retour | Revenir à l'étape précédente |
-| ⏭️ | Skip | Passer cette question (pénalité XP) |
-| 😴 | Pause | Pause + message d'encouragement de Lumi |
-| ❓ | Solution | Affiche la réponse expliquée |
-| 🌟 | Encouragement | Boost moral + bonus XP surprise |
-| 🎲 | Joker | Réponse automatique validée (1 usage/topic) |
+| `[?]` | Hint | Indice sur la question en cours |
+| `[~]` | Réexplication | Réexplique le concept depuis le début |
+| `[<]` | Retour | Revenir à l'étape précédente |
+| `[>]` | Skip | Passer cette question (pénalité XP) |
+| `[z]` | Pause | Pause + message d'encouragement de Lumi |
+| `[!]` | Solution | Affiche la réponse expliquée |
+| `[*]` | Encouragement | Boost moral + bonus XP surprise |
+| `[X]` | Joker | Réponse automatique validée (1 usage/topic) |
 
 ---
 
-## 🏗️ Architecture de la Forteresse
+## <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/1f3f0.svg" width="22" height="22" align="center" /> Architecture de la Forteresse
 
 ```
 codexia/
-│
-├── 🏰 frontend/                  ← React + TypeScript
-│   ├── 🗺️ world/                 ← Carte du monde (SVG / Tiled)
-│   ├── 🃏 cards/                 ← Composants cartes magiques
-│   ├── ⚔️ game/                  ← QCM, exercices, timer
-│   └── 🧙 lumi/                  ← Personnage guide Lumi
-│
-├── ⚗️ backend/                   ← FastAPI + Python
-│   ├── 📜 islands/               ← Données des îles et topics
-│   ├── 🧮 engine/                ← Logique XP, progression
-│   └── ⚡ judge/                 ← Intégration Judge0 (exécution code)
-│
-├── 🗄️ database/                  ← PostgreSQL + SQLAlchemy
-│   ├── users                     ← Profils joueurs
-│   ├── progress                  ← Progression par île/topic
-│   └── cards                     ← Collection de cartes
-│
-└── 🌐 shared/                    ← Types TypeScript partagés
+|
+|-- [>>] frontend/                  <- React + TypeScript
+|   |-- [~] world/                  <- Carte du monde (SVG / Tiled)
+|   |-- [C] cards/                  <- Composants cartes magiques
+|   |-- [X] game/                   <- QCM, exercices, timer
+|   '-- [@] lumi/                   <- Personnage guide Lumi
+|
+|-- [*] backend/                    <- FastAPI + Python
+|   |-- [S] islands/                <- Données des îles et topics
+|   |-- [=] engine/                 <- Logique XP, progression
+|   '-- [!] judge/                  <- Intégration Judge0 (exécution code)
+|
+|-- [D] database/                   <- PostgreSQL + SQLAlchemy
+|   |-- users                       <- Profils joueurs
+|   |-- progress                    <- Progression par île/topic
+|   '-- cards                       <- Collection de cartes
+|
+'-- [o] shared/                     <- Types TypeScript partagés
 ```
 
 ---
 
-## ⚗️ Stack Technique
+## <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/1f9ea.svg" width="22" height="22" align="center" /> Stack Technique
 
 | Couche | Technologie | Rôle |
 |---|---|---|
@@ -137,7 +137,7 @@ codexia/
 
 ---
 
-## 🔮 Installation Rituelle
+## <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/1f52e.svg" width="22" height="22" align="center" /> Installation Rituelle
 
 ### Prérequis
 
@@ -152,7 +152,7 @@ codexia/
 git clone https://github.com/ton-pseudo/codexia.git
 cd codexia
 
-# ─── Backend ───────────────────────────────────────────
+# --- Backend ---------------------------------------------------
 cd backend
 python -m venv .venv
 source .venv/bin/activate          # Windows : .venv\Scripts\activate
@@ -160,12 +160,12 @@ pip install -r requirements.txt
 
 cp .env.example .env               # Configurer les variables
 alembic upgrade head               # Migrations base de données
-uvicorn main:app --reload          # Lancer le serveur ⚡
+uvicorn main:app --reload          # Lancer le serveur [!]
 
-# ─── Frontend ──────────────────────────────────────────
+# --- Frontend --------------------------------------------------
 cd ../frontend
 npm install
-npm run dev                        # Lancer l'interface 🗺️
+npm run dev                        # Lancer l'interface [~]
 ```
 
 ### Variables d'Environnement
@@ -181,7 +181,7 @@ SECRET_KEY=une_clé_secrète_très_longue
 
 ---
 
-## 📜 Feuille de Route
+## <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/1f5d3.svg" width="22" height="22" align="center" /> Feuille de Route
 
 - [x] Architecture définie
 - [x] Composant Carte Magique (avec effet 3D holographique)
@@ -196,16 +196,16 @@ SECRET_KEY=une_clé_secrète_très_longue
 
 ---
 
-## 🧙‍♀️ Lumi te dit...
+## <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/1f9d9.svg" width="22" height="22" align="center" /> Lumi te dit...
 
-> *« L'aventurier qui ne commit pas son code régulièrement  
-> est condamné à réécrire ses sorts depuis le début. »*  
+> *« L'aventurier qui ne commit pas son code régulièrement*  
+> *est condamné à réécrire ses sorts depuis le début. »*  
 >  
 > — `git commit -m "feat: survived the swamp of variables"`
 
 ---
 
-## 📜 Licence
+## <img src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/svg/1f4dc.svg" width="22" height="22" align="center" /> Licence
 
 Ce grimoire est distribué sous licence **MIT**.  
 Utilise-le, forge-le, améliore-le — mais n'oublie pas de citer ses origines.
@@ -214,6 +214,6 @@ Utilise-le, forge-le, améliore-le — mais n'oublie pas de citer ses origines.
 
 <div align="center">
 
-*Forgé avec ✦ et beaucoup de café dans les terres de Syntaxia*
+*Forgé avec* ✦ *et beaucoup de café dans les terres de Syntaxia*
 
 </div>

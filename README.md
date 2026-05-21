@@ -3,7 +3,7 @@
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║        ✦  C O D E X I A  ✦  L ' Î L E   P Y T H O N  ✦    ║
+║        ✦  S Y N T A X I A  ✦  L ' Î L E   P Y T H O N  ✦    ║
 ║                                                              ║
 ║         « Où chaque ligne de code est un sort lancé »        ║
 ║                                                              ║
